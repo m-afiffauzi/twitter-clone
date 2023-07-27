@@ -4,8 +4,8 @@ import Button from "./Button";
 
 interface ModalProps {
   isOpen?: boolean;
-  onClose: (event: Event) => void;
-  onSubmit: (event: Event) => void;
+  onClose: (event?: Event) => void;
+  onSubmit: (event?: Event) => void;
   title: string;
   body?: React.ReactElement;
   footer?: React.ReactElement;
